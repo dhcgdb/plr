@@ -1,0 +1,16 @@
+router
+# node  comment     yPos    xPos
+c0
+c1
+r0
+r1
+r2
+p0
+
+link
+# srcNode   dstNode     bandwidth   metric  delay   queue
+c1          r0          40Mbps       1       5ms     1
+c0          r0          50Mbps       1       5ms     1
+r0          r1          60Mbps       1       5ms     1
+r1          r2          70Mbps       1       5ms     1
+r2          p0          80Mbps       1       5ms     1

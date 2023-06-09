@@ -1,0 +1,14 @@
+router
+
+# node  comment     yPos    xPos
+c0       NA          1       1
+r0       NA          1       2
+r1       NA          1       3
+p0       NA          1       4
+
+link
+
+# srcNode   dstNode     bandwidth   metric  delay   queue   error ns3::RateErrorModel,ErrorUnit=ERROR_UNIT_PACKET,ErrorRate=0.01
+c0          r0           100Mbps       1     10ms      32    
+r0          r1           50Mbps        1     10ms      32    
+r1          p0           100Mbps       1     10ms      32    
